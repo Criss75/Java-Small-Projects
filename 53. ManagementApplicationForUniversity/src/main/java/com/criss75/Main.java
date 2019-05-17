@@ -32,7 +32,7 @@ public class Main {
 
 //        System.out.println(studentList);
 
-        Room Paris = new Room("Paris", true);
+        Room Paris = new Room("London", true);
         Paris.setAvailability(true);
 
         Course Java = new Course(Paris, teacherList, studentList);
